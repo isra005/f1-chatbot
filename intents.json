@@ -1,0 +1,152 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good evening"
+      ],
+      "responses": [
+        "Hello! You can ask me anything about Formula 1 🏎️"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "talk to you later"
+      ],
+      "responses": [
+        "Goodbye! See you at the next race 🏁"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "appreciate it"
+      ],
+      "responses": [
+        "You're welcome! 😊"
+      ]
+    },
+    {
+      "tag": "f1_definition",
+      "patterns": [
+        "what is formula 1",
+        "what is f1",
+        "explain formula one",
+        "tell me about f1"
+      ],
+      "responses": [
+        "Formula 1 is the highest level of international single-seater car racing."
+      ]
+    },
+    {
+      "tag": "team_count",
+      "patterns": [
+        "how many teams are in f1",
+        "number of f1 teams",
+        "how many teams compete in formula 1"
+      ],
+      "responses": [
+        "There are 10 teams competing in Formula 1."
+      ]
+    },
+    {
+      "tag": "driver_count",
+      "patterns": [
+        "how many drivers are in f1",
+        "number of f1 drivers",
+        "how many drivers compete in formula 1"
+      ],
+      "responses": [
+        "There are 20 drivers in Formula 1, with two drivers per team."
+      ]
+    },
+    {
+      "tag": "last_champion",
+      "patterns": [
+        "who won the last f1 championship",
+        "who is the current f1 champion",
+        "last formula 1 champion",
+        "who won the championship last season"
+      ],
+      "responses": [
+        "Max Verstappen won the most recent Formula 1 World Championship."
+      ]
+    },
+    {
+      "tag": "race_duration",
+      "patterns": [
+        "how long is an f1 race",
+        "duration of a formula 1 race",
+        "how much time does an f1 race take"
+      ],
+      "responses": [
+        "A Formula 1 race usually lasts around 1.5 to 2 hours."
+      ]
+    },
+    {
+      "tag": "race_distance",
+      "patterns": [
+        "how long is an f1 race distance",
+        "how many kilometers is an f1 race",
+        "f1 race distance"
+      ],
+      "responses": [
+        "A Formula 1 race covers about 305 kilometers."
+      ]
+    },
+    {
+      "tag": "season_time",
+      "patterns": [
+        "when does the f1 season start",
+        "when is formula 1",
+        "what time of year is f1"
+      ],
+      "responses": [
+        "The Formula 1 season usually runs from March to November."
+      ]
+    },
+    {
+      "tag": "driver_team",
+      "patterns": [
+        "which team is max verstappen in",
+        "what team does lewis hamilton drive for",
+        "which team is charles leclerc in"
+      ],
+      "responses": [
+        "That driver competes for a Formula 1 team."
+      ]
+    },
+    {
+      "tag": "points_system",
+      "patterns": [
+        "how does f1 scoring work",
+        "f1 points system",
+        "how are points given in formula 1"
+      ],
+      "responses": [
+        "Points are awarded to the top 10 finishers, with 25 points for first place."
+      ]
+    },
+    {
+      "tag": "fastest_car",
+      "patterns": [
+        "how fast are f1 cars",
+        "maximum speed of f1 cars",
+        "how fast can a formula 1 car go"
+      ],
+      "responses": [
+        "Formula 1 cars can reach speeds of over 350 km/h."
+      ]
+    }
+  ]
+}
