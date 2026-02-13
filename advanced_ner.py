@@ -32,20 +32,3 @@ def extract_entities_spacy(text):
     return entities
 
 
-# Simple test
-if __name__ == "__main__":
-    test_texts = [
-        "Tell me about Hamilton in 2020",
-        "What happened at Monaco with Mercedes?",
-        "Who won race 5 in 2023?"
-    ]
-    
-    print("Testing spaCy NER:")
-    print("="*50)
-    for text in test_texts:
-        result = extract_entities_spacy(text)
-        print(f"\nInput: {text}")
-        for key, values in result.items():
-            if values:
-                print(f"  {key}: {values}")
-       

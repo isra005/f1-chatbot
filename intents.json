@@ -7,10 +7,11 @@
         "hello",
         "hey",
         "good morning",
-        "good evening"
+        "good evening",
+        "is anyone there"
       ],
       "responses": [
-        "Hello! You can ask me anything about Formula 1 🏎️"
+        "Hello! How can I help you with Formula 1 today?"
       ]
     },
     {
@@ -22,7 +23,7 @@
         "talk to you later"
       ],
       "responses": [
-        "Goodbye! See you at the next race 🏁"
+        "Goodbye! Enjoy the race weekend."
       ]
     },
     {
@@ -30,122 +31,258 @@
       "patterns": [
         "thanks",
         "thank you",
-        "appreciate it"
+        "appreciate it",
+        "great thank you"
       ],
       "responses": [
-        "You're welcome! 😊"
+        "You're welcome!"
       ]
     },
     {
-      "tag": "f1_definition",
+      "tag": "next_race",
       "patterns": [
-        "what is formula 1",
-        "what is f1",
-        "explain formula one",
-        "tell me about f1"
+        "when is the next race",
+        "next grand prix",
+        "what is the upcoming race",
+        "where is the next race",
+        "next f1 weekend"
       ],
       "responses": [
-        "Formula 1 is the highest level of international single-seater car racing."
+        "Let me check the next race for you."
       ]
     },
     {
-      "tag": "team_count",
+      "tag": "last_race",
       "patterns": [
-        "how many teams are in f1",
-        "number of f1 teams",
-        "how many teams compete in formula 1"
+        "last race",
+        "previous grand prix",
+        "who won the last race",
+        "results of the last race"
       ],
       "responses": [
-        "There are 10 teams competing in Formula 1."
+        "Here are the latest race results."
       ]
     },
     {
-      "tag": "driver_count",
-      "patterns": [
-        "how many drivers are in f1",
-        "number of f1 drivers",
-        "how many drivers compete in formula 1"
+      "tag": "driver_info",
+       "patterns": [
+        "tell me about hamilton",
+        "tell me about lewis hamilton",  
+        "who is max verstappen",
+        "who is verstappen",            
+        "information about charles leclerc",
+        "driver details",
+        "tell me about this driver",
+       "stats for verstappen"           
       ],
       "responses": [
-        "There are 20 drivers in Formula 1, with two drivers per team."
+        "Let me find information about that driver."
+      ]
+
+    },
+    {
+      "tag": "constructor_info",
+      "patterns": [
+        "tell me about ferrari",
+        "what is red bull",
+        "constructor info",
+        "team details",
+        "information about mercedes"
+      ],
+      "responses": [
+        "Here is what I found about the team."
       ]
     },
     {
-      "tag": "last_champion",
+      "tag": "driver_standings",
       "patterns": [
-        "who won the last f1 championship",
-        "who is the current f1 champion",
-        "last formula 1 champion",
-        "who won the championship last season"
+        "driver standings",
+        "championship standings",
+        "who leads the championship",
+        "current driver ranking"
       ],
       "responses": [
-        "Max Verstappen won the most recent Formula 1 World Championship."
+        "Let me check the current driver standings."
       ]
     },
     {
-      "tag": "race_duration",
+      "tag": "constructor_standings",
       "patterns": [
-        "how long is an f1 race",
-        "duration of a formula 1 race",
-        "how much time does an f1 race take"
+        "constructor standings",
+        "team rankings",
+        "which team is leading",
+        "championship for teams"
       ],
       "responses": [
-        "A Formula 1 race usually lasts around 1.5 to 2 hours."
+        "Here are the constructor standings."
       ]
     },
     {
-      "tag": "race_distance",
+      "tag": "fastest_lap",
       "patterns": [
-        "how long is an f1 race distance",
-        "how many kilometers is an f1 race",
-        "f1 race distance"
+        "who had the fastest lap",
+        "fastest lap last race",
+        "best lap time"
       ],
       "responses": [
-        "A Formula 1 race covers about 305 kilometers."
+        "Checking the fastest lap."
       ]
     },
     {
-      "tag": "season_time",
+      "tag": "pole_position",
       "patterns": [
-        "when does the f1 season start",
-        "when is formula 1",
-        "what time of year is f1"
+        "who got pole",
+        "pole position",
+        "who starts first"
       ],
       "responses": [
-        "The Formula 1 season usually runs from March to November."
+        "Let me check the pole sitter."
       ]
     },
     {
-      "tag": "driver_team",
+      "tag": "race_schedule",
       "patterns": [
-        "which team is max verstappen in",
-        "what team does lewis hamilton drive for",
-        "which team is charles leclerc in"
+        "season calendar",
+        "race schedule",
+        "all races this year",
+        "list of grand prix"
       ],
       "responses": [
-        "That driver competes for a Formula 1 team."
+        "Here is the race calendar."
+      ]
+    },
+    {
+      "tag": "race_time",
+      "patterns": [
+        "what time is the race",
+        "race start time",
+        "when does it begin"
+      ],
+      "responses": [
+        "Let me find the start time."
       ]
     },
     {
       "tag": "points_system",
       "patterns": [
-        "how does f1 scoring work",
+        "how are points given",
         "f1 points system",
-        "how are points given in formula 1"
+        "how many points for first place"
       ],
       "responses": [
-        "Points are awarded to the top 10 finishers, with 25 points for first place."
+        "Here is how the points system works."
       ]
     },
     {
-      "tag": "fastest_car",
+      "tag": "tyre_info",
       "patterns": [
-        "how fast are f1 cars",
-        "maximum speed of f1 cars",
-        "how fast can a formula 1 car go"
+        "tyre compounds",
+        "what tyres are used",
+        "soft medium hard tyres"
       ],
       "responses": [
-        "Formula 1 cars can reach speeds of over 350 km/h."
+        "Here is some information about tyres."
+      ]
+    },
+    {
+      "tag": "drs",
+      "patterns": [
+        "what is drs",
+        "explain drs",
+        "how does drs work"
+      ],
+      "responses": [
+        "Let me explain DRS."
+      ]
+    },
+    {
+      "tag": "safety_car",
+      "patterns": [
+        "what is a safety car",
+        "why is there a safety car",
+        "virtual safety car"
+      ],
+      "responses": [
+        "Here is how the safety car works."
+      ]
+    },
+    {
+      "tag": "pit_stop",
+      "patterns": [
+        "what is a pit stop",
+        "why do cars pit",
+        "pit strategy"
+      ],
+      "responses": [
+        "Here is information about pit stops."
+      ]
+    },
+    {
+    "tag": "race_winner",
+    "patterns": [
+      "who won monaco",
+      "winner of the belgian grand prix",
+      "who won race 5",
+      "winner of round 3",
+      "race results monaco"
+  ] ,
+  "responses": [
+    "Let me check who won that race."
+  ]
+},
+    {
+      "tag": "rookie",
+      "patterns": [
+        "who is a rookie",
+        "new drivers",
+        "first year drivers"
+      ],
+      "responses": [
+        "Here are the rookies."
+      ]
+    },
+    {
+      "tag": "f1_fact",
+      "patterns": [
+        "tell me a fact",
+        "f1 trivia",
+        "something interesting about f1"
+      ],
+      "responses": [
+        "Here is a fun F1 fact!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "race weather",
+        "will it rain",
+        "weather forecast"
+      ],
+      "responses": [
+        "Let me check the weather conditions."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "what can you do",
+        "help me",
+        "how can you help"
+      ],
+      "responses": [
+        "I can give you race info, standings, drivers, teams, and more."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "random question",
+        "i don't know",
+        "something else"
+      ],
+      "responses": [
+        "I'm not sure I understood. Can you rephrase?"
       ]
     }
   ]

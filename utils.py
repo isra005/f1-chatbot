@@ -15,7 +15,7 @@ try:
 except LookupError:
     nltk.download('wordnet')
 
-# ← NO INDENTATION from here on!
+
 lemmatizer = WordNetLemmatizer()
 
 #  F1 driver dictionary

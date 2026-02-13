@@ -1,4 +1,4 @@
-from main import extract_driver_hybrid, extract_team_hybrid, extract_year
+from chatbot import extract_driver_hybrid, extract_team_hybrid, extract_year
 
 def test() :
     tests = [
@@ -19,6 +19,6 @@ def test() :
         status = "✅" if excepted.lower() in str(result).lower() else "❌"
         print(f"input : {test}")
         print(f"excepted : {excepted}")
-        print(f"{status}Got{result}")
+        print(f" {status} Go  :t{result}")
 if __name__ == "__main__":
     test()
